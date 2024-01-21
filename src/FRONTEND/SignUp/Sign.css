@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+#box{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 60px;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-radius: 20px;
+    font-family: 'Agbalumo',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#whole{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+#first{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#round{
+    position: absolute;
+    height: 990px;
+    width: 900px;
+    border-radius: 50%;
+    left: -18%;
+    border: 1px solid black;
+    background-color: orange !important;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#img{
+    position: absolute;
+    height: 990px;
+    width: 900px;
+    left: -16%;
+    border-radius: 50%;
+    border: 1px solid black ;
+    z-index: 2000;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+/* #first{
+    position: absolute;
+} */
+#pics{
+    /* position: relative; */
+    height: 400px;
+    width: 400px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+#p1{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#p2{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#no{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border: 1px solid black;  
+    cursor: pointer; 
+}
+#userid{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 255px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#ppic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#n1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n2{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n3{
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n5{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n6{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#n7{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#name{
+    width: 225px;
+}
+#name1{
+    margin-left: 50px;
+    width: 227px;
+}
+#pas{
+    width: 225px;
+}
+#cpas{
+    margin-left: 50px;
+    width: 227px;
+}
+#ph{
+    width: 225px;
+}
+#ph1{
+    margin-left: 50px;
+    width: 227px;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 160px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#dry{
+    color: black;
+    font-size: 50px;
+    z-index: 3000;
+    font-family: 'Shojumaru',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}

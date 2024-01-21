@@ -1,0 +1,23 @@
+body{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.cat_box{
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+   border-radius: 20px;
+   cursor: pointer;
+}
+#com{
+    margin-left: 450px !important;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#ies{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
