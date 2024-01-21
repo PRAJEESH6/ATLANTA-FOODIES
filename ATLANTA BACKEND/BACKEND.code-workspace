@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "BACKEND",
+			"path": "../bus-ticket/src/BACKEND"
+		},
+		{
+			"name": "ATLANTA BACKEND",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
